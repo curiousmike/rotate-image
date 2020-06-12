@@ -1,0 +1,11 @@
+.matrixContainer {
+  margin: 16px;
+}
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  background-color: #1f2833;
+}

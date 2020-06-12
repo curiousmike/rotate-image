@@ -1,0 +1,56 @@
+.cellRow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.cellHighlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #45a29e;
+  color: #66fcf1;
+  width: 48px;
+  height: 48px;
+  margin: 4px;
+  padding: 4px;
+  font-size: 24px;
+}
+.cellHighlightCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #45a29e;
+  color: white;
+  width: 48px;
+  height: 48px;
+  margin: 4px;
+  padding: 4px;
+  font-size: 24px;
+}
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #1f2833;
+  color: #66fcf1;
+
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  padding: 4px;
+  font-size: 20px;
+}
+.matrixContainer {
+  background: #0b0c10;
+  border: 8px solid limegreen;
+  width: 320px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
